@@ -7,13 +7,21 @@ Ce projet est une application **Client-Serveur** en Java permettant le transfert
 ## Contenu du dépôt
 
 ```
-SecureFileTransfer/
-├── SecureFileServer.jar   # Serveur compilé
-├── SecureFileClient.jar   # Client compilé
-├── README.md              # Ce fichier
+SecureFileTransfer_vf/
+├── SecureFileServer.jar # Serveur compilé
+├── SecureFileClient.jar # Client compilé
+├── transfert_de_fichiers_securise_vf/
+│ ├── src/
+│ │ ├── SecureFileServer.java
+│ │ ├── SecureFileClient.java
+│ │ ├── ClientTransferHandler.java
+│ │ ├── FileMetadata.java
+│ │ └── CryptoUtils.java
+├── README.md # Ce fichier             # Ce fichier
 ```
 
-> Les fichiers `.jar` sont les exécutables prêts à l'emploi.  
+> Les fichiers `.jar` sont les exécutables prêts à l'emploi.
+> Le dossier `transfert_de_fichiers_securise_vf/` contient tout le code Java pour consultation ou compilation.
 
 ---
 
